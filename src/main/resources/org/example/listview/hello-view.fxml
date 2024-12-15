@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.listview.HelloController">
+<top>
+    <Label text="JavaFX Aplikace s TextField, ListView a Dialogy" />
+</top>
+<center>
+    <VBox spacing="10" alignment="CENTER">
+        <TextField fx:id="textField" promptText="Zadejte text" />
+        <Button text="Přidat do seznamu" onAction="#handleAddToList" />
+        <Button text="Zobrazit upozornění" onAction="#handleShowAlert" />
+        <Button text="Zadat text přes dialog" onAction="#handleGetUserInput" />
+        <ListView fx:id="listView" />
+    </VBox>
+</center>
+</BorderPane>

@@ -1,0 +1,24 @@
+/* Nastavení pozadí aplikace */
+.root {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Styl pro tlačítka */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Styl pro ListView */
+.list-view {
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
